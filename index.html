@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="commands">
+        <div id="buttons">
+            <button id="reset" onclick="Reset()">reset</button>
+            <button id="run" onclick="Run()">run</button>
+        </div>
+        <div id="terminal"></div>
+
+        <div id="keys">
+            <div class="key" id="up" onclick="clickKey(0)">&uarr;</div>
+            <div class="key" id="down" onclick="clickKey(1)">&darr;</div>
+            <div class="key" id="left" onclick="clickKey(2)">&larr;</div>
+            <div class="key" id="right" onclick="clickKey(3)">&rarr;</div>
+        </div>
+    </div>
+
+    <div id="display">
+        <div id="turtle"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
